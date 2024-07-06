@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    font-family: "Bona Nova SC", serif;
+    color:#130f40;
+}
+body{
+    background-color:#1B9CFC;
+}
 .faq-accordian{
     max-width:800px;
     margin: 0 auto;    
@@ -5,21 +13,23 @@
 
 .faq-item{
     margin-bottom:20px;
-    border:1px solid #e0e0e0;
+    border:1px solid #f8c291;
     border-radius:5px;
     overflow:hidden;
 }
-
+h2{
+    color:#c7ecee;
+}
 .faq-item-header{
-    background-color:#f7f7f7;
+    background-color:#6a89cc;
     padding:15px;
     cursor:pointer;
     font-size:18px;
-    color:#333;
+   color:#fff;
     transition:background-color 0.3s ease;
     }
 .faq-item-header:hover{
-    background-color:#e0e0e0;
+    background-color:#4a69bd;
 }
 
 .faq-item-body{
@@ -31,7 +41,8 @@
 
 .faq-item-body-content{
     padding:15px;
-    color:#555;
+   color:#fff;
+    background-color:#1e3799;
 }
 .faq-item.active .faq-item-body{
     max-height:300px;
