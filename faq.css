@@ -33,3 +33,6 @@
     padding:15px;
     color:#555;
 }
+.faq-item.active .faq-item-body{
+    max-height:300px;
+}
